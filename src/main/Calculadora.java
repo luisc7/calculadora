@@ -20,13 +20,24 @@ public class Calculadora {
 		r2e = Multiplicacion.mult2Enteros(p1e, p2e);
 		System.out.println(r2e);
 		
+		/**
+		 * ------------------------------
+		 * |							|
+		 * |			RESTA			|
+		 * |							|
+		 * ------------------------------
+		 */
 		
-		
+		//Empezamos con la clase resta
 		//Creo los objetos para realizar las distintas operaciones
 		Resta rest1 = new Resta(3,2);
 		Resta rest2 = new Resta(5,3,8);
 		Resta rest3 = new Resta(3);
-				
+		
+		//Indico que va a empezar la resta
+		System.out.println("*----------RESTA----------*");
+		
+		
 		//Realizamos las operaciones haciendo las distintas llamdas a los métodos de la clase
 		System.out.print("Resultado de la resta de dos números reales: ");
 		rest1.calcularDosReales();
@@ -45,6 +56,7 @@ public class Calculadora {
 		rest3.stringMostrarValor();
 		System.out.print("El resultado de la resta es:");
 		rest3.calcRestAcu();
+		
 	}
 	
 
