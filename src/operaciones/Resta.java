@@ -57,7 +57,7 @@ public class Resta {
 		this.n4 = n4;
 	}
 	
-	Zona de GET/SET
+	//Zona de GET/SET
 
 	public double getN1() {
 		return n1;
