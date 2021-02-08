@@ -73,6 +73,18 @@ public class Calculadora {
 		System.out.print("El resultado de la resta es:");
 		rest3.calcRestAcu();
 		
+
+		
+		/**
+		 * ------------------------------
+		 * |							|
+		 * |			DIVIDIR			|
+		 * |							|
+		 * ------------------------------
+		 */
+		
+		
+
 		float res1 = 0F;
 		float fd1 = 1.2F;
 		float fd2 = 4.5F;
@@ -84,7 +96,9 @@ public class Calculadora {
 		double res4 = 0;
 		float rd1 = 9F;
 		
+
 		System.out.println("-------------------DIVISION---------------------");
+
 		System.out.print("División de dos números reales " + fd1 + " entre " + fd2 + " = ");
 		res1 = dividir.div2reales(fd1, fd2);
 		System.out.println(res1);
@@ -100,6 +114,7 @@ public class Calculadora {
 		System.out.print("Raíz cuadrada de " + rd1 + " = ");
 		res4 = dividir.raiz(fd1);
 		System.out.println(res4);
+
 		
 	}
 	
