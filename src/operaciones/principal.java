@@ -1,5 +1,5 @@
 package operaciones;
-
+/*
 public class principal {
 
 	public static void main(String[] args) {
@@ -33,3 +33,4 @@ public class principal {
 	}
 
 }
+*/
