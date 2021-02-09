@@ -1,0 +1,92 @@
+[33mcommit 3405fc658f9feb243de32950bae0a5c560be0f7c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/resta[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:40:39 2021 +0100
+
+    modifico el main
+
+[33mcommit c450a85de36633c1de286c598b217e865787b2c3[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:22:34 2021 +0100
+
+    añado el main
+
+[33mcommit 58a1e7653d2d58de162071323e39f6b78816a97a[m
+Merge: 8a5536f 757cab4
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:15:48 2021 +0100
+
+    Merge branch 'main' into resta
+
+[33mcommit 8a5536f78349d61c6bbde0588ab3a5e3a9cf7775[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:14:37 2021 +0100
+
+    Arreglo un comentario
+
+[33mcommit 757cab42e5c1d44af352aba282f395eb4dbfc2bc[m
+Merge: dd9f4a8 d7bca0d
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:12:23 2021 +0100
+
+    antes de hacer el merge con resta
+
+[33mcommit d7bca0d23b63dffb3630b05fad1b5145457b1e22[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:06:38 2021 +0100
+
+    Get/Set y métodos
+
+[33mcommit ed2635568d0c90d1190cc0931c15a2f1edac8429[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 15:03:36 2021 +0100
+
+    creo los constructores de la clase
+
+[33mcommit dd9f4a81d2ef70980fb9f48b8a7fb16b0ecd0ae3[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 14:58:32 2021 +0100
+
+    descargado las acutalizaciones
+
+[33mcommit 6fb9ef7172ad41f86072851572943deb9fd95b1b[m
+Merge: 10f648a d27ab0c
+Author: Luis Cifuentes <luiscifuentes7@gmail.com>
+Date:   Sun Feb 7 14:29:54 2021 +0100
+
+    Merge branch 'multiplicacion'
+
+[33mcommit d27ab0cf2ea822930ea28ad13e1a22b76f320fbf[m[33m ([m[1;31morigin/multiplicacion[m[33m, [m[1;32mmultiplicacion[m[33m)[m
+Author: Luis Cifuentes <luiscifuentes7@gmail.com>
+Date:   Sun Feb 7 14:28:29 2021 +0100
+
+    Añado clase multiplicación y su javadoc
+
+[33mcommit 10f648a234343ad1b8d04d7ff701f32aeb540221[m
+Author: Luis Cifuentes <luiscifuentes7@gmail.com>
+Date:   Sun Feb 7 14:19:47 2021 +0100
+
+    Subo a main la clase calculadora con mayúscula
+
+[33mcommit 5a0e0dcabf99615ecd98ccf3313e7633200c868f[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 13:56:26 2021 +0100
+
+    creo mi clase Resta
+
+[33mcommit e9b99b43b53ca496a09b961ca05039276e4acee9[m
+Author: DeiMoS-es <nagib.86@gmail.com>
+Date:   Sun Feb 7 13:45:39 2021 +0100
+
+    mi primer commit
+
+[33mcommit c7adb5ae2d5f72eb589f8b5a864d7566237bba26[m[33m ([m[1;31morigin/suma[m[33m, [m[1;32mresta[m[33m)[m
+Author: Luis Cifuentes <luiscifuentes7@gmail.com>
+Date:   Sun Feb 7 13:19:56 2021 +0100
+
+    Estructura de archivos de partida
+
+[33mcommit cbb1c37916fc887d64e7347a870b1acd87ad777c[m
+Author: Luis Cifuentes <luiscifuentes7@gmail.com>
+Date:   Sun Feb 7 11:44:53 2021 +0100
+
+    Primer commit
