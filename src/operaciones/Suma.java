@@ -1,14 +1,16 @@
 package operaciones;
 
+/**
+ * Esta clase calcula la suma de dos y tres nï¿½meros reales
+ * Calcula la suma entre dos numeros enteros
+ * Tambien recoge la suma calculada de estos digitos en la clase
+ * @author Ana Belï¿½n Arias
+ * @version 1.0
+ * 
+ */
+
 public class Suma {
-	/**
-	 * Esta clase calcula la suma de dos y tres números reales
-	 * Calcula la suma entre dos numeros enteros
-	 * Tambien recoge la suma calculada de estos digitos en la clase
-	 * @author Ana Belén Arias
-	 * @version 1.0
-	 * 
-	 */
+	
 		
 	 private int acumulador;
 
@@ -33,8 +35,8 @@ public class Suma {
 	  
 	  /**
 	   * Este metodo suma dos numeros enteros
-	   * @param n1 representa el primer numero a sumar
-	   * @param n2 representa el segundo numero a sumar
+	   * @param n1e representa el primer numero a sumar
+	   * @param n2e representa el segundo numero a sumar
 	   * @return resultado suma  dos numeros enteros
 	   */
 		
@@ -63,7 +65,7 @@ public class Suma {
 	  /**
 	   * Este metodo recoge el valor de la suma acumulativa y lo guarda en la clase Suma.
 	   * Se elige un valor de tipo int para evitar decimales.
-	   * @param acu representa la varible que contiene el valor de la suma acumulada
+	   * @param acu representa la variable que contiene el valor de la suma acumulada
 	   * en la clase.
 	   * 
 	   */

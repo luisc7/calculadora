@@ -1,18 +1,24 @@
 package main;
 import operaciones.Multiplicacion;
 import operaciones.Resta;
-import operaciones.dividir;
+import operaciones.Dividir;
+import operaciones.Suma;
 
 public class Calculadora {
 
 	public static void main(String[] args) {
 		
-		// MULTIPICACION
+		/*
+		 * ------------------------------
+		 * |							|
+		 * |	MULTIPLICACION			|
+		 * |							|
+		 * ------------------------------
+		 */
 		System.out.println("-----MULTIPLICACION-------");
 		float r2 = 0F;
 		float p1 = 3.1F;
 		float p2 = 2.5F;
-		float i2 = 0;
 		int p1e = 4;
 		int p2e = 17;
 		int r2e = 0;
@@ -28,7 +34,7 @@ public class Calculadora {
 		System.out.println("-----FIN-MULTIPLICACION-------\n");
 
 		
-		/**
+		/*
 		 * ------------------------------
 		 * |							|
 		 * |			RESTA			|
@@ -75,7 +81,7 @@ public class Calculadora {
 		
 
 		
-		/**
+		/*
 		 * ------------------------------
 		 * |							|
 		 * |			DIVIDIR			|
@@ -100,22 +106,22 @@ public class Calculadora {
 		System.out.println("-------------------DIVISION---------------------");
 
 		System.out.print("División de dos números reales " + fd1 + " entre " + fd2 + " = ");
-		res1 = dividir.div2reales(fd1, fd2);
+		res1 = Dividir.div2reales(fd1, fd2);
 		System.out.println(res1);
 		
 		System.out.print("División de dos números enteros " + ed1 + " entre " + ed2 + " = ");
-		res2 = dividir.div2enteros(ed1, ed2);
+		res2 = Dividir.div2enteros(ed1, ed2);
 		System.out.println(res2);
 		
 		System.out.print("Número inverso de " + id1 + " = ");
-		res3= dividir.inversoReal(fd1);
+		res3= Dividir.inversoReal(fd1);
 		System.out.println(res3);
 		
 		System.out.print("Raíz cuadrada de " + rd1 + " = ");
-		res4 = dividir.raiz(fd1);
+		res4 = Dividir.raiz(fd1);
 		System.out.println(res4);
 
-		/**
+		/*
 		 * ------------------------------
 		 * |							|
 		 * |			SUMA		|
