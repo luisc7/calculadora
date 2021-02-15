@@ -1,6 +1,6 @@
 package operaciones;
 
-public class dividir {
+public class Dividir {
 
 	int dividir;
 	
