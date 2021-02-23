@@ -142,6 +142,11 @@ public class Calculadora {
 				int n1e= 5;
 				int n2e= 6;
 				int E2=0;
+				int ac1 = 7;
+				int ac2 = 3;
+				int ac3 = 4;
+				int ac4 = 5;
+				int ac5 = 12;
 				
 				System.out.println("La suma de dos numeros reales es: ");
 				R2= Suma.sumaDosReales(n1, n2);
@@ -154,7 +159,16 @@ public class Calculadora {
 				System.out.println("La suma de tres numeros reales es: ");
 				R3= Suma.sumaTresReales(n1, n2, n3);
 				System.out.println(R3);
-		
+								
+				Suma.sumaAcumulada(ac1);
+				Suma.sumaAcumulada(ac2);
+				Suma.sumaAcumulada(ac3);
+				Suma.sumaAcumulada(ac4);
+				Suma.sumaAcumulada(ac5);
+				System.out.println("La suma acumulada de " + ac1
+						+ ", " + ac2 + ", " + ac3 + ", " + ac4 + " y " + ac5 + " es: "
+						+ Suma.getAcumulador());
+				
 	}
 	
 
