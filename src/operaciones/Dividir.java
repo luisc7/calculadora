@@ -15,7 +15,10 @@ public class Dividir {
 	/**
 	 * <pre>Este método devuelve la división de dos número reales. </pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Si el segundo parámetro es cero, resulta en una excepción.</pre>
+	 * <pre>- Si el segundo parámetro es cero, el resultado depende de lo que valga fd1:</pre>
+	 * <pre>  * Positivo: Infinity.</pre>
+	 * <pre>  * Negativo: -Infinity.</pre>
+	 * <pre>  * Cero: NaN.</pre>
 	 * @param fd1 es el dividendo.
 	 * @param fd2 es el divisor.
 	 * 
@@ -34,7 +37,8 @@ public class Dividir {
 	/**
 	 * <pre>Este método devuelve la división de dos número enteros. </pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Si el segundo parámetro es cero, resulta en una excepción.</pre>
+	 * <pre>- Si el segundo parámetro es cero, independientemente del valor del 
+	 * primer parámetro, resulta en una excepción.</pre>
 	 * @param ed1 es el dividendo.
 	 * @param ed2 es el divisor.
 	 * 
@@ -51,10 +55,10 @@ public class Dividir {
 	/**
 	 * <pre>Este método devuelve el inverso de un número real. </pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Si el parámetro es cero, resulta en una excepción.</pre>
-	 * @param id1 es el número a calcular la división.
+	 * <pre>- Si el parámetro es cero, devuelve infinito.</pre>
+	 * @param id1 es el número del que se calcula la inversa.
 	 * 
-	 * @return Resultado de la division. 
+	 * @return Resultado del cálculo de la inversa. 
 	 */
 	
 	public static float inversoReal (float id1) {
@@ -67,7 +71,7 @@ public class Dividir {
 	/**
 	 * <pre>Este método devuelve la raíz cuadrada de un número real. </pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Si el parámetro pasado es negativo, resulta en una excepción.</pre>
+	 * <pre>- Si el parámetro pasado es negativo, devuelve NaN.</pre>
 	 * @param rd1 es el número del que se calculará la raíz cuadrada.
 	 * 
 	 * @return Resultado de la reíz cuadrada. 

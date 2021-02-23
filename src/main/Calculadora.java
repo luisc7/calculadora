@@ -102,6 +102,7 @@ public class Calculadora {
 		double res4 = 0;
 		float rd1 = 9F;
 		
+		
 
 		System.out.println("-------------------DIVISION---------------------");
 
@@ -114,11 +115,11 @@ public class Calculadora {
 		System.out.println(res2);
 		
 		System.out.print("Número inverso de " + id1 + " = ");
-		res3= Dividir.inversoReal(fd1);
+		res3= Dividir.inversoReal(id1);
 		System.out.println(res3);
 		
 		System.out.print("Raíz cuadrada de " + rd1 + " = ");
-		res4 = Dividir.raiz(fd1);
+		res4 = Dividir.raiz(rd1);
 		System.out.println(res4);
 
 		/*
