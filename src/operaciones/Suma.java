@@ -1,7 +1,7 @@
 package operaciones;
 
 /**
- * Esta clase calcula la suma de dos y tres nï¿½meros reales
+ * Esta clase calcula la suma de dos y tres números reales
  * Calcula la suma entre dos numeros enteros
  * Tambien recoge la suma calculada de estos digitos en la clase
  * @author Ana Belï¿½n Arias
@@ -11,7 +11,6 @@ package operaciones;
 
 public class Suma {
 	
-		
 	 private int acumulador;
 
 	/**
@@ -20,9 +19,7 @@ public class Suma {
 	  * @param n1 representa el primer numero a sumar
 	  * @param n2 representa el segundo numero a sumar
 	  * @return resultado de la suma de dos numeros reales
-	  */
-	
-		 	
+	  */ 	
 	   		
 	  //comienza metodos
 
@@ -67,7 +64,6 @@ public class Suma {
 	   * Se elige un valor de tipo int para evitar decimales.
 	   * @param acu representa la variable que contiene el valor de la suma acumulada
 	   * en la clase.
-	   * 
 	   */
 	  public void sumaAcumulada(int n1, int n2, int n3) {
 		  
@@ -75,14 +71,7 @@ public class Suma {
 		  setAcumulador(0);
 	 		
 		  for (int i =0; i< 5; i++)//lista de numeros que se supone llena
-			  		setAcumulador(getAcumulador() + acu[i]); //declaramos e inicializamos el acumulador
-			  		
-			  		
-		  
-		  		
-	 		 				
-			
-			
+			  setAcumulador(getAcumulador() + acu[i]); //declaramos e inicializamos el acumulador  		
 		}
 
 	public int getAcumulador() {

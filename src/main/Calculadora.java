@@ -68,7 +68,7 @@ public class Calculadora {
 		
 		//---------------------------------------------------------------------	
 		
-		//Aquï¿½ realizo la resta de valores que se van introduciendo
+		//Aquí realizo la resta de valores que se van introduciendo
 		System.out.print("\nMostramos el primer valor a restar:");
 		rest3.stringMostrarValor();
 		System.out.print("El resultado de la resta es:");
@@ -105,19 +105,19 @@ public class Calculadora {
 
 		System.out.println("-------------------DIVISION---------------------");
 
-		System.out.print("DivisiÃ³n de dos nÃºmeros reales " + fd1 + " entre " + fd2 + " = ");
+		System.out.print("División de dos números reales " + fd1 + " entre " + fd2 + " = ");
 		res1 = Dividir.div2reales(fd1, fd2);
 		System.out.println(res1);
 		
-		System.out.print("DivisiÃ³n de dos nÃºmeros enteros " + ed1 + " entre " + ed2 + " = ");
+		System.out.print("División de dos números enteros " + ed1 + " entre " + ed2 + " = ");
 		res2 = Dividir.div2enteros(ed1, ed2);
 		System.out.println(res2);
 		
-		System.out.print("NÃºmero inverso de " + id1 + " = ");
+		System.out.print("Número inverso de " + id1 + " = ");
 		res3= Dividir.inversoReal(fd1);
 		System.out.println(res3);
 		
-		System.out.print("RaÃ­z cuadrada de " + rd1 + " = ");
+		System.out.print("Raíz cuadrada de " + rd1 + " = ");
 		res4 = Dividir.raiz(fd1);
 		System.out.println(res4);
 
@@ -153,6 +153,8 @@ public class Calculadora {
 				System.out.println("La suma de tres numeros reales es: ");
 				R3= Suma.sumaTresReales(n1, n2, n3);
 				System.out.println(R3);
+				
+				
 		
 	}
 	
