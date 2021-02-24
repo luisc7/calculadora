@@ -1,6 +1,11 @@
 package pruebas;
 
-
+/**
+ * Esta clase contiene las pruebas unitarias de la clase Sumar
+ * @author Nagib Delgado
+ * @since 24/02/2021
+ * @version 1.0
+ */
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
