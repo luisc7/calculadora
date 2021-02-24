@@ -79,15 +79,17 @@ class TestSuma {
 		assertEquals(6.6f, s1.sumaTresReales(2.1f, 2.2f, 2.3f),0.1);
 	}
 	
+	/**
+	 * En esta prueba realizamos el test sobre la suma Acumulada
+	 */
 	@Test
 	void testsumaAcumulada() {
 		Suma s1 = new Suma();
 		
+		s1.sumaAcumulada(3);
+		s1.sumaAcumulada(2);
 		
-		s1.setAcumulador(3);
-		s1.sumaAcumulada(3, 15, 7);
-		System.out.print(s1.getAcumulador());
-		//assertEquals(s1.getAcumulador(), s1.sumaAcumulada(3, 5, 7));
+		assertEquals(5, s1.getAcumulador());
 	}
 
 
