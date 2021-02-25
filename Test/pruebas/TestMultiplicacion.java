@@ -17,7 +17,7 @@ class TestMultiplicacion {
 	 */
 		
 	@Test
-	void testMult2Reales() {
+	void testMult2Reales() {git 
 		//fail("Not yet implemented");
 		float resultado = Multiplicacion.mult2Reales(-1, 1.5F);
 		float esperado = 1.5F;
