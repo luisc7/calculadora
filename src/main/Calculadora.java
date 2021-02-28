@@ -106,20 +106,29 @@ public class Calculadora {
 
 		System.out.println("-------------------DIVISION---------------------");
 
-		System.out.print("División de dos números reales " + fd1 + " entre " + fd2 + " = ");
+		System.out.print("Divisi�n de dos n�meros reales " + fd1 + " entre " + fd2 + " = ");
 		res1 = Dividir.div2reales(fd1, fd2);
 		System.out.println(res1);
 		
-		System.out.print("División de dos números enteros " + ed1 + " entre " + ed2 + " = ");
+		System.out.print("Divisi�n de dos n�meros enteros " + ed1 + " entre " + ed2 + " = ");
 		res2 = Dividir.div2enteros(ed1, ed2);
 		System.out.println(res2);
 		
+
+		System.out.print("N�mero inverso de " + id1 + " = ");
+		res3= Dividir.inversoReal(fd1);
+		System.out.println(res3);
+		
+		System.out.print("Ra�z cuadrada de " + rd1 + " = ");
+		res4 = Dividir.raiz(fd1);
+
 		System.out.print("Número inverso de " + id1 + " = ");
 		res3= Dividir.inversoReal(id1);
 		System.out.println(res3);
 		
 		System.out.print("Raíz cuadrada de " + rd1 + " = ");
 		res4 = Dividir.raiz(rd1);
+
 		System.out.println(res4);
 
 		/*
@@ -159,7 +168,7 @@ public class Calculadora {
 				System.out.println("La suma de tres numeros reales es: ");
 				R3= Suma.sumaTresReales(n1, n2, n3);
 				System.out.println(R3);
-								
+					
 				Suma.sumaAcumulada(ac1);
 				Suma.sumaAcumulada(ac2);
 				Suma.sumaAcumulada(ac3);
@@ -168,7 +177,7 @@ public class Calculadora {
 				System.out.println("La suma acumulada de " + ac1
 						+ ", " + ac2 + ", " + ac3 + ", " + ac4 + " y " + ac5 + " es: "
 						+ Suma.getAcumulador());
-				
+
 	}
 	
 

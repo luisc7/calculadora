@@ -1,6 +1,6 @@
 package operaciones;
 /**
- * Esta clase contiene varios mÃ©todos para la multiplicaciÃ³n de nÃºmeros.
+ * Esta clase contiene varios métodos para la multiplicación de números.
  * @author Luis Cifuentes
  * @since 07/02/2021
  * @version 1.1
@@ -10,9 +10,9 @@ package operaciones;
 public class Multiplicacion {
 	
 	/**
-	 * <pre>Este mÃ©todo devuelve la multiplicaciÃ³n de dos nÃºmero reales. </pre>
+	 * <pre>Este método devuelve la multiplicación de dos números reales. </pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Resultado sobrepasa el tamaÃ±o mÃ¡ximo de float da error.</pre>
+	 * <pre>- Resultado sobrepasa el tamaño máximo de float da error.</pre>
 	 * @param f1 es el primer factor.
 	 * @param f2 es el segundo factor.
 	 * 
@@ -27,10 +27,10 @@ public class Multiplicacion {
 	
 	
 	/** 
-	 * <pre>Este mÃ©todo devuelve la multiplicaciÃ³n de dos nÃºmeros enteros.</pre>
+	 * <pre>Este método devuelve la multiplicación de dos números enteros.</pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Si es mayor al tamaÃ±o de una variable entera, puede 
-	 * desbordar y devolver un dato errÃ³neo sin avisar del error.</pre>
+	 * <pre>- Si es mayor al tamaño de una variable entera, puede 
+	 * desbordar y devolver un dato erróneo sin avisar del error.</pre>
 	 * <pre>- Si se necesita trabajar con factores o resultado mayores, utilizar 
 	 * @see mult3Reales con un factor igual a uno.</pre>
 	 * @param f1 es el primer factor.
@@ -45,10 +45,10 @@ public class Multiplicacion {
 	}
 	
 	/**
-	 * <pre>Este mÃ©todo devuelve la multiplicaciÃ³n de tres factores con 
-	 * doble precisiÃ³n.</pre>
+	 * <pre>Este método devuelve la multiplicación de tres factores con 
+	 * doble precisión.</pre>
 	 * <pre>Casos especiales:</pre>
-	 * <pre>- Resultado sobrepasa el tamaÃ±o mÃ¡ximo de double da error.</pre>
+	 * <pre>- Resultado sobrepasa el tamaÃ±o máximo de double da error.</pre>
 	 * @param f1 es el primer factor.
 	 * @param f2 es el segundo factor.
 	 * @param f3 es el tercer factor.
@@ -62,14 +62,14 @@ public class Multiplicacion {
 	}
 	
 	/**
-	 * <pre>Este mÃ©todo realiza la potencia de un nÃºmero al exponente 
+	 * <pre>Este método realiza la potencia de un números al exponente 
 	 * pasado.El exponente debe ser un entero positivo.</pre>
 	 * <pre>Casos especiales:</pre>
 	 * <pre>- Siempre es uno con exponente 0.</pre>
 	 * <pre>- Devuelve error si se sobrepasa el rango de double.</pre>
-	 * @param base es el nÃºmero a elevar.
+	 * @param base es el números a elevar.
 	 * @param exponente es exponente al que elevamos la base. Entero positivo.
-	 * @return la potencia "exponente" del nÃºmero "base".
+	 * @return la potencia "exponente" del números "base".
 	 */
 	
 	public static double potencia(double base, int exponente) {
