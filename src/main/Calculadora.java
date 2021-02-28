@@ -44,40 +44,24 @@ public class Calculadora {
 		
 		//Empezamos con la clase resta
 
-		//Creo los objetos para realizar las distintas operaciones
-		Resta rest1 = new Resta(3,2);
-		Resta rest2 = new Resta(5,3,8);
-		Resta rest3 = new Resta(3);
-		
+	
 		//Indico que va a empezar la resta
 		System.out.println("*----------RESTA----------*");
-		
-		
+			
 		//Realizamos las operaciones haciendo las distintas llamdas a los mï¿½todos de la clase
-		System.out.print("Resultado de la resta de dos nï¿½meros reales: ");
-
-				
-		//Realizamos las operaciones haciendo las distintas llamdas a los mï¿½todos de la clase
-		System.out.print("Resultado de la resta de dos nï¿½meros reales: ");
-		rest1.calcularDosReales();
-		System.out.print("Resultado de la resta de dos nï¿½meros enteros: ");
-		rest1.calcularDosEnteros();
-		System.out.print("Resultado de la resta de tres nï¿½meros reales: ");
-		rest2.calcularTresReales();
+		System.out.print("Resultado de la resta de dos nï¿½meros reales: " + Resta.restaDosReales(4.0, 2.0));
+		System.out.print("Resultado de la resta de dos nï¿½meros enteros: " + Resta.restaDosEnteros(6, 2));
+		System.out.print("Resultado de la resta de tres nï¿½meros reales: " + Resta.restaTres(3.0, 4.0, 2.0));
 		
 		
 		//---------------------------------------------------------------------	
 		
-		//Aquï¿½ realizo la resta de valores que se van introduciendo
-		System.out.print("\nMostramos el primer valor a restar:");
-		rest3.stringMostrarValor();
-		System.out.print("El resultado de la resta es:");
-		rest3.calcRestAcu();
-		rest3.setN4(5);
-		System.out.print("\nMostramos el segundo valor a restar:");
-		rest3.stringMostrarValor();
-		System.out.print("El resultado de la resta es:");
-		rest3.calcRestAcu();
+		//Aquí realizo la resta de valores que se van introduciendo
+		Resta.restaAcu(8);
+		Resta.restaAcu(5);
+		Resta.restaAcu(12);
+		System.out.println("La resta acumulada es " + Resta.getAcumulador());
+		
 		
 
 		
@@ -106,20 +90,20 @@ public class Calculadora {
 
 		System.out.println("-------------------DIVISION---------------------");
 
-		System.out.print("Divisiï¿½n de dos nï¿½meros reales " + fd1 + " entre " + fd2 + " = ");
+		System.out.print("División de dos números reales " + fd1 + " entre " + fd2 + " = ");
 		res1 = Dividir.div2reales(fd1, fd2);
 		System.out.println(res1);
 		
-		System.out.print("Divisiï¿½n de dos nï¿½meros enteros " + ed1 + " entre " + ed2 + " = ");
+		System.out.print("División de dos números enteros " + ed1 + " entre " + ed2 + " = ");
 		res2 = Dividir.div2enteros(ed1, ed2);
 		System.out.println(res2);
 		
 
-		System.out.print("Nï¿½mero inverso de " + id1 + " = ");
+		System.out.print("Número inverso de " + id1 + " = ");
 		res3= Dividir.inversoReal(fd1);
 		System.out.println(res3);
 		
-		System.out.print("Raï¿½z cuadrada de " + rd1 + " = ");
+		System.out.print("Raíz cuadrada de " + rd1 + " = ");
 		res4 = Dividir.raiz(fd1);
 
 		System.out.print("NÃºmero inverso de " + id1 + " = ");
