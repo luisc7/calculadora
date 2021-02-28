@@ -7,7 +7,7 @@ package pruebas;
  * @version 1.0
  */
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+//import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -32,56 +32,52 @@ class TestSuma {
 	
 	/**
 	 * En esta prueba voy a comprobar que el metodo sumaDosReales funciona adecuadamente.
-	 * El resultado de la prueba será positivo cuando devuelva la suma de dos números reales
+	 * El resultado de la prueba serï¿½ positivo cuando devuelva la suma de dos nï¿½meros reales
 	 */
 	@Test
 	void testsumasumaDosReales() {
-		Suma s1 = new Suma();
 		
-		assertEquals(4.3, s1.sumaDosReales(2.1f, 2.2f), 0.1);
+		assertEquals(4.3, Suma.sumaDosReales(2.1f, 2.2f), 0.1);
 	}
 	/**
-	 * En esta prueba voy a comprobar si el metodo sumaDosReales funciona cuando se le pasa un número negativo
+	 * En esta prueba voy a comprobar si el metodo sumaDosReales funciona cuando se le pasa un nï¿½mero negativo
 	 */
 	@Test
 	void testSumaDosRealesUnoNegativo() {
-		Suma s1 = new Suma();
 
-		assertEquals(-1.1, s1.sumaDosReales(-3.2f,2.1f),0.1);
+		assertEquals(-1.1, Suma.sumaDosReales(-3.2f,2.1f),0.1);
 		
 	}
 	
 	/**
 	 * En esta prueba voy a comprobar que el metodo sumaDosEnteros funciona adecuadamente.
-	 * El resultado de la prueba será positivo cuando devuelva la suma de dos números reales
+	 * El resultado de la prueba serï¿½ positivo cuando devuelva la suma de dos nï¿½meros reales
 	 */
 	@Test
 	void testSumaDosEnteros() {
-		Suma s1 = new Suma();
-
-		assertEquals(4, s1.sumaDosEnteros(2,2));
+		
+		assertEquals(4, Suma.sumaDosEnteros(2,2));
 		
 	}
 	/**
-	 * En esta prueba voy a comprobar si el metodo sumaDosEnteros funciona cuando se le pasa un número negativo
+	 * En esta prueba voy a comprobar si el metodo sumaDosEnteros funciona cuando se le pasa un nï¿½mero negativo
 	 */
 	@Test
 	void testSumaDosEnterosUnoNegativo() {
-		Suma s1 = new Suma();
+		
 
-		assertEquals(-1, s1.sumaDosEnteros(-3,2));
+		assertEquals(-1, Suma.sumaDosEnteros(-3,2));
 		
 	}
 	
 	/**
 	 * En esta prueba voy a comprobar que el metodo sumaTresReales funciona adecuadamente.
-	 * El resultado de la prueba será positivo cuando devuelva la suma de tres números reales
+	 * El resultado de la prueba serï¿½ positivo cuando devuelva la suma de tres nï¿½meros reales
 	 */
 	@Test
 	void testSumaTresReales() {
-		Suma s1 = new Suma();
 		
-		assertEquals(6.6f, s1.sumaTresReales(2.1f, 2.2f, 2.3f),0.1);
+		assertEquals(6.6f, Suma.sumaTresReales(2.1f, 2.2f, 2.3f),0.1);
 	}
 	
 	/**
@@ -89,12 +85,11 @@ class TestSuma {
 	 */
 	@Test
 	void testsumaAcumulada() {
-		Suma s1 = new Suma();
+				
+		Suma.sumaAcumulada(3);
+		Suma.sumaAcumulada(2);
 		
-		s1.sumaAcumulada(3);
-		s1.sumaAcumulada(2);
-		
-		assertEquals(5, s1.getAcumulador());
+		assertEquals(5, Suma.getAcumulador());
 	}
 
 
