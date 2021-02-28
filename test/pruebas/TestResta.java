@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 
 import operaciones.Resta;
 
-class test1 {
+class TestResta {
 
 	
 	@Test
